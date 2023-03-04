@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link';
@@ -21,7 +20,7 @@ export default function Home() {
         <div className='basis-1/4'>
         <img
             className={styles.borderCircle}
-            src="/images/cat.jpg"
+            src="cat.jpg"
             alt="Next.js Logo"
             width={200}
             height={200}
@@ -36,7 +35,7 @@ export default function Home() {
             <div>
               <Link href="https://github.com/pytorch/pytorch">
               <img
-                src="/images/git_icon.png"
+                src="git_icon.png"
                 className='hover:scale-125'
                 alt="git icon"
                 width={48}
@@ -49,7 +48,7 @@ export default function Home() {
             </div>
             <div>
             <img
-                src="/images/linkedn_icon_2.png"
+                src="linkedn_icon_2.png"
                 className='hover:scale-125'
                 alt="git icon"
                 width={48}
