@@ -19,13 +19,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className='basis-1/4'>
-        <Image
+        <img
             className={styles.borderCircle}
             src="/images/cat.jpg"
             alt="Next.js Logo"
             width={200}
             height={200}
-            priority
             style={{
               margin: "auto",
             }}
@@ -36,7 +35,7 @@ export default function Home() {
           <div className='flex flex-row justify-center py-4'>
             <div>
               <Link href="https://github.com/pytorch/pytorch">
-              <Image
+              <img
                 src="/images/git_icon.png"
                 className='hover:scale-125'
                 alt="git icon"
@@ -49,7 +48,7 @@ export default function Home() {
               </Link>
             </div>
             <div>
-            <Image
+            <img
                 src="/images/linkedn_icon_2.png"
                 className='hover:scale-125'
                 alt="git icon"
